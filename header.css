@@ -1,0 +1,87 @@
+/* ----------------This Header Section--------------- */
+
+
+header{
+  display: flex;
+  justify-content:space-between;
+}
+
+
+header ul{
+  list-style: none;
+
+}
+
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+
+header .headerOption {
+  
+  display: flex;
+  align-items: center;
+  gap: 16.63px;
+  list-style: none;
+}
+
+header .headerOption img {
+  width: 48px;
+  height: 56.008px;
+
+}
+
+header .headerOption h1 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Mulish;
+
+
+}
+
+header .headerOption h1 span {
+  color: #FF5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+header nav {
+margin: 0;
+
+}
+
+header .NavA{
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+}
+
+
+header nav ul{
+  display: flex;
+  gap: 44px;
+}
+
+header nav ul li a {
+  color: var(--Dark-02, #424247);
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+header nav ul li .Home{
+  color: #FF5400;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
