@@ -1,12 +1,964 @@
 /* -- -----------------This is benner section------------------------- */
 
 main .benner{
-  width: 1170px;
+  width: 100%;
   height: 500px;
   flex-shrink: 0;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-  padding: 0px  135px;
   background-image: url(Images/fastimge.png);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main{
+  margin: 50px 135px 0 135px;
+}
+
+
+main .hero-text{
+  text-align: center;
+}
+
+main .hero-text h1{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;;
+}
+
+main .hero-text p {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+main .hero-text .buttonbarr{
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);  
+
+}
+
+main .hero-text .buttonbarr .FastBt{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+}
+
+
+main .hero-text .buttonbarr .SecendBt {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+}
+
+main .hero-text .buttonbarr .SecendBt h3{
+  display: flex;
+}
+
+main .hero-text .buttonbarr .SecendBt h3 span{
+  gap: 74px;
+}
+
+
+main .hero-text .buttonbarr .Therdbt{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+}
+
+main .hero-text .buttonbarr .Lestbt{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+}
+
+main button h3{
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 84px 16px 15px; 
+}
+
+main button h5{
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 74px 16px 15px; 
+}
+
+main button h4{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 16px 34px 16px 67px; 
+}
+
+main button h3 img{
+  width: 24px;
+  height: 24px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+}
+
+
+
+/* ----------this Our Popular Tours section---------------------- */
+
+
+
+main .Popular-Tours{
+  margin: 100px 0;
+}
+
+main .Popular-Tours .FlexHobe{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+main .Popular-Tours .FlexHobe h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+}
+
+main .Popular-Tours .FlexHobe p {
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 24px 0;
+}
+
+main .Popular-Tours .FlexHobe li{
+  color: rgba(19, 19, 24, 0.70);
+  margin: 16px 0 ;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+
+main .Popular-Tours .FlexHobe li span{
+  margin: 0 25px;
+}
+
+
+main .Popular-Tours .FlexHobe button{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+}
+
+main .Popular-Tours .FlexHobe button h3{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 14px 35px 13px 34px ;
+}
+
+main .Popular-Tours .FlexHobe .mountentImg{
+  width: 540px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+/* ------------This Is Destination Section------------------- */
+
+
+main .Destination{
+  text-align: center;
+  margin: 48px 0;
+}
+
+main .Destination .Destination-Head h1{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+main .Destination .Destination-Head p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 24px ;
+}
+
+
+/* <!-- ----------Choose Your Destination---------------- --> */
+
+main .Choose div {
+  text-align: center;
+}
+main .Choose div h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+main .Choose div p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 24px;
+}
+
+
+/*  -----------------This Is Destination Section-------------' */
+
+
+main .Destination .fast{
+  display: flex;
+  gap: 24px;
+}
+
+
+main .Destination .Maldives{
+  width: 573px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(Images/maldives.png);
+}
+
+
+main .fast h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 132px 226px 133px 227px;
+
+
+}
+
+main .Destination .Indonesia{
+  width: 573px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(Images/indonesia.png);
+}
+
+
+
+main .Destination .secend{
+  display: flex;
+  margin: 24px 0 ;
+  gap: 24px;
+}
+
+
+main .Destination .secend .Srilanka{
+  width: 374px;
+  height: 286px;
+  flex-shrink: 0;
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(Images/Srilanka.png);
+}
+
+main .Srilanka h1{
+  color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 125px 130px 130px 126px;
+}
+
+
+main .Destination .secend .NorthAmerica{
+  width: 474px;
+  height: 286px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/NorthAmrica.png);
+  gap: 24px;
+}
+
+main .NorthAmerica h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 125px 137px 126px 137px;
+}
+
+main .Destination .secend .Kashmir{
+  width: 274px;
+  height: 286px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/kasmir.png);
+}
+
+main .Kashmir h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 125px 81px 126px 80px; 
+}
+
+
+main .Destination .theard{
+  display: flex;
+  margin: 24px 0 0 ;
+  gap: 24px;
+}
+
+main .Destination .theard .Bangladesh{
+  width: 473px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(Images/Bangldesh.png); 
+}
+
+main .Bangladesh h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 132px 155px 133px 156px;
+}
+
+main .Destination .theard .Bandarban{
+  width: 673px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/Bandarbsn.png);
+}
+
+main .Bandarban h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 132px 260px 133px 259px;
+}
+
+
+
+
+/*  --------------------this is Why Choose Us Section--------------- */
+
+
+main .WhyUs{
+  text-align: center;
+  margin: 100px 0;
+}
+]
+
+main .WhyUs h1{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+main .WhyUs p {
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+/* - --this is Why Choose card  Section-- */
+
+main .HMD-card{
+  display: flex;
+  margin: 24px 0;
+  gap: 24px ;
+}
+
+
+
+main .top-card{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+main .HMD-card .top-card img{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 32px 32px 32px 32px;
+}
+
+main .HMD-card .top-card h1{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0 32px ;
+}
+
+
+main .HMD-card .top-card p{
+  margin: 5px 32px;
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+main .rightcard{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+main .rightcard img{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 32px 32px 32px 32px;
+}
+
+main .rightcard h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 32px;
+}
+
+main .rightcard p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 0 32px;/* 162.5% */
+}
+
+main .colorhobe{
+  border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+
+main .l-card .last-card{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(245, 4, 189, 0.103);
+  background: rgba(233, 68, 68, 0.05); 
+  margin: 0 290px;
+}
+
+main .l-card img{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 32px 32px 32px 32px;
+}
+
+main .l-card h1{ 
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 32px ;
+}
+
+main .l-card p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 5px 32px ;/* 162.5% */
+}
+
+
+/* <!--  this is deals docoment sectin --> */
+
+
+main .deals div {
+  text-align: center;
+  margin: 100px 0 0 48px;
+}
+
+main .deals h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+
+main .deals p {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+/*       <!-- Banarr+div big Section --> */
+
+
+main .Banarrdiv{
+  width: 1170px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/Group\ 39.png);
+}
+
+main .Banarrdiv .solidcolor{
+  border: 1px solid rgba(245, 245, 220, 0);
+}
+
+
+main .solidblack{
+  display: flex;
+  border: 1px solid rgba(245, 222, 179, 0);
+}
+
+main .solidblack span{ 
+  margin: 0 0 0 24px;
+}
+
+main .fasting{
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
+
+main .fasting {
+  margin: 56px 0 0 535px;
+}
+
+main .clockLogo{
+  display: flex;
+  margin: 50px 26px 24px ;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+ 
+
+main .Banarrdiv span{
+  display: flex;
+  gap:8px ;
+}
+main .Banarrdiv  h1{ 
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 50px;
+}
+
+main .Banarrdiv  p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 50px; /* 162.5% */
+}
+
+main .Banarrdiv h2{
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 50px;
+}
+
+main  .Banarrdiv  button {
+  width: 150px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  margin: 16px 50px;
+  border: none;
+
+}
+
+
+
+/* <!-- this Is packages Section --> */
+
+main .SeeAllpakeges .butionx{
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+
+main .SeeAllpakeges button{
+  width: 210px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  margin: 48px 480px  ;
+}
+
+
+main .videotex .jangotm{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+main .videotext  .video {
+  width: 610px;
+  height: 424px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+  background-image: url(Images/Group\ 40089.png);
+}
+
+
+ /*   --------    see all packeges   -----------   */
+
+
+main .Popular-Toursw{
+  margin: 100px 0;
+}
+
+main .Popular-Toursw .FlexHobew{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+main .Popular-Toursw .FlexHobew h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
+}
+
+main .Popular-Toursw .FlexHobew p {
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 24px 0;
+}
+
+main .Popular-Toursw .FlexHobeew li{
+  color: rgba(19, 19, 24, 0.70);
+  margin: 16px 0 ;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 24px 0  ;/* 162.5% */
+}
+
+
+main .Popular-Toursw .FlexHobew li span{
+  margin: 24px 25px 24px ;
+}
+
+
+main .Popular-Toursw .FlexHobew button{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+  margin: 24px 0;
+}
+
+
+main .Popular-Toursw .FlexHobew button h3{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 14px 35px 13px 34px ;
+}
+
+main .Popular-Toursw .FlexHobew .mountentImgw{
+  width: 610px;
+  height: 424px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+  background-image: url(Images/Group\ 40089.png);
+}
+
+
+main .Popular-Toursw .FlexHobew .mountentImgw h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; 
+  margin: 176px 167px 176px 167px;
+}
+
+
+
+/* <!-- ------------this is card and walpaper section -------- --> */
+
+
+main .card{
+  width: 474px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+}
+
+main .card h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 40px 40px 5px;
+}
+
+main .card p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 0 40px;/* 162.5% */
+}
+
+main .card .solidcolor{
+  width: 393px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: 24px 40px;
+}
+
+
+main .walpaper{
+  width: 672px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/Rectangle\ 8\ \(1\).png);
+}
+
+main .cardorwallpaper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 100px ;
+  gap:  24px ;
+}
+
+main .Enteryourname1{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 48px 40px 16px ;
+}
+
+main .Enteryourname1 h5{
+  color: rgba(19, 19, 24, 0.30);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 20px   ;
+}
+
+main .Enteryourname2{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0 40px 16px ;
+}
+
+main .Enteryourname2 h5{
+  color: rgba(19, 19, 24, 0.30);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 20px   ;
+}
+
+main .Subscribe{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400; 
+  margin: 24px 40px;
+}
+
+main .Subscribe h5{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 14px 147.86px 13px 149.14px;
 }
