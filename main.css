@@ -447,7 +447,7 @@ main .WhyUs{
   text-align: center;
   margin: 100px 0;
 }
-]
+
 
 main .WhyUs h1{
   color: #131318;
@@ -671,12 +671,22 @@ main .clockLogo{
   height: 24px;
   flex-shrink: 0;
 }
- 
+
 
 main .Banarrdiv span{
   display: flex;
   gap:8px ;
 }
+
+main .Banarrdiv span h3{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 main .Banarrdiv  h1{ 
   color: #131318;
   font-family: Mulish;
@@ -718,14 +728,113 @@ main  .Banarrdiv  button {
 
 }
 
+/* 2nd dive_benar section */
+
+
+
+main .Banarrdivq{
+  width: 1170px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(Images/Group\ 40.png);
+}
+
+main .Banarrdivq .solidcolorq{
+  border: 1px solid rgba(245, 245, 220, 0);
+}
+
+
+main .solidblackq{
+  display: flex;
+  border: 1px solid rgba(245, 222, 179, 0);
+}
+
+main .solidblackq span{ 
+  margin: 0 0 0 24px;
+}
+
+
+main .solidblackq span h4{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main .fastingq{
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
+
+main .fastingq {
+  margin: 56px 56px 56px ;
+}
+
+main .clockLogoq{
+  display: flex;
+  margin: 50px 26px 24px ;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+
+main .Banarrdivq span{
+  display: flex;
+  gap:8px ;
+}
+main .Banarrdivq  h1{ 
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 50px;
+}
+
+main .Banarrdivq  p{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 50px; /* 162.5% */
+}
+
+main .Banarrdivq h2{
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0 50px;
+}
+
+main  .Banarrdivq  button {
+  width: 150px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  margin: 16px 50px;
+  border: none;
+
+}
 
 
 /* <!-- this Is packages Section --> */
-
-main .SeeAllpakeges .butionx{
-  border: 1px solid rgba(0, 0, 0, 0);
-}
-
 
 main .SeeAllpakeges button{
   width: 210px;
@@ -734,17 +843,17 @@ main .SeeAllpakeges button{
   border-radius: 8px;
   background: #FF5400;
   border: none;
-  margin: 48px 480px  ;
+  margin: 48px 480px 0 480px  ;
 }
 
 
-main .videotex .jangotm{
+main .videotexq .jangotmq{
   display: flex;
   justify-content: space-between;
 }
 
 
-main .videotext  .video {
+main .videotextq  .videoq {
   width: 610px;
   height: 424px;
   flex-shrink: 0;
@@ -853,13 +962,19 @@ main .Popular-Toursw .FlexHobew .mountentImgw h1{
 
 /* <!-- ------------this is card and walpaper section -------- --> */
 
+main .cardorwallpaper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 main .card{
   width: 474px;
   height: 422px;
   flex-shrink: 0;
   border-radius: 16px;
-border: 1px solid #FF5400;
+  border: 1px solid #FF5400;
 }
 
 main .card h1 {
